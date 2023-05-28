@@ -1,0 +1,52 @@
+header {
+    box-shadow: 0 2px 4px 0 rgba(14,30,37,0.12);
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+input { 
+    border: none;
+    }
+
+.search-input {
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(8, 196, 26);
+    margin-left: 25px;
+    height: 35px;
+    width: 350px;
+    padding-left: 15px;
+
+}
+.search-btn {
+    border: 0;
+    background-color: transparent;
+    margin-left: -50px;
+}
+
+.header-icon {
+    margin-left: auto;
+}
+
+ul li {
+    list-style-type: none; 
+    float: left;
+    margin-left: 20px;
+}
+
+ul li p {
+    font-size: 11px;
+    color: gray;
+}
+
+.mypage-button {
+    margin-left: 6px;
+}
