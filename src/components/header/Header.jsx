@@ -5,10 +5,11 @@ import SearchBtn from "../../assets/SearchBtn.svg"
 import bucketImage from "../../assets/bucketImage.svg"
 import MypageImage from "../../assets/MypageImage.svg"
 
+
 export default function Header() {
     return (
         <header>
-            <div className='container'>
+            <div className='headerContainer'>
                 <h1>
                     <img src={imgLogo} alt='HODU' />
                 </h1>

@@ -2,7 +2,7 @@ header {
     box-shadow: 0 2px 4px 0 rgba(14,30,37,0.12);
     margin-bottom: 20px;
 }
-.container {
+.headerContainer {
     display: flex;
     width: 1200px;
     margin: 0 auto; 
