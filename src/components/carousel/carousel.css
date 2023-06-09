@@ -27,10 +27,10 @@ div {
 }
 
 .img {
-  width: 2010px;
+  width: 1500px;
   height: 500px;
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   flex: none;
 }

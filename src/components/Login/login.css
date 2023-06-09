@@ -1,0 +1,35 @@
+.loginPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.loginPage-logo {
+    width: 239px;
+}
+
+.loginContainer{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.buyerForm-btn{
+    width: 275px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #F2F2F2;
+    font-size: 18px;
+}
+
+.sellerForm-btn{
+    width: 275px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: #F2F2F2;
+    font-size: 18px;
+}

@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage/HomePage'
 import ProductDetailPage from './pages/ProductDetailPage/ProductDetailPage'
 import './reset.css'
 import './app.css'
+import LoginPage from './pages/LoginPage/LoginPage';
 
 function App() {
   return (
@@ -11,15 +12,13 @@ function App() {
         <Routes>
           <Route path={'/homepage'} element={<HomePage />}></Route>
           <Route path={'/productdetailpage'} element={<ProductDetailPage />}></Route>
+          <Route path={'/loginpage'} element={<LoginPage />}></Route>
         </Routes>
       </BrowserRouter>
-
-      <HomePage/>
 
     </div>
 
 
- 
   );
 }
 

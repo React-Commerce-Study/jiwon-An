@@ -1,28 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { data } from '../../database/data'
 import './productDetailPage.css'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import Header from "../../components/header/Header"
+import ProductDetail from "../../components/ProductDetail/ProductDetail";
 
-export default function HomePage() {
+export default function ProductDetailPage() {
 
     return (
         <>
             <Header/>
-            <main className="product">
-                <ul className="product-list">
-                    {data.map(item =>
-                        <ProductCard
-                            key={item.id}
-                            productName={item.productName}
-                            price={item.price}
-                            thumbnailImg={item.thumbnailImg}
-                        />
-                    )}
-                </ul>
-                <a className="link-btn cart-link" href="#"></a>
-            </main>
+            <ProductDetail 
+            productName={'버그를 Java라 버그잡는 개리씨 키링 개발자키링 금속키링'}
+            price={12500}/>
         </>
 
-    )
+
+    );
 }
