@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    
 }
 
 .loginPage-logo {
@@ -16,13 +17,18 @@
     flex-direction: column;
 }
 
+/* .formbtnContainer {
+    z-index: 2;
+} */
+
 .buyerForm-btn{
     width: 275px;
     height: 80px;
     border-radius: 10px;
     border: 1px solid #C4C4C4;
-    background: #F2F2F2;
+    background: #FFFFFF;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .sellerForm-btn{
@@ -30,6 +36,66 @@
     height: 80px;
     border-radius: 10px;
     border: 1px solid #C4C4C4;
-    background: #F2F2F2;
+    background: #FFFFFF;
     font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.sellerForm-btn:disabled {
+    background-color: #F2F2F2;
+}
+
+.buyerForm-btn:disabled {
+    background-color: #F2F2F2;
+}
+
+.forminputContainer {
+    margin-top: -15px;
+    border: 1px solid #C4C4C4;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 292px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #ffffff;
+    /* z-index: 1; */
+}
+
+.id-input , .pw-input {
+    width: 480px;
+    height: 60px;
+    font-size: 16px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.errormessageWrap {
+    color: #EB5757;
+    font-size: 16px;
+    float: left;
+}
+
+.login-btn {
+    margin-top: 36px;
+    width: 480px;
+    height: 60px;
+    background: #21BF48;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.loginFooter {
+    margin-top: 30px;
+    display: flex;
+    font-size: 16px;
+    color:#333333;;
+}
+
+.loginFooter p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
